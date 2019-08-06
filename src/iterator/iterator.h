@@ -1,8 +1,8 @@
-#include "../collections/Collection.h"
+#include "Collection.h"
 
 template <typename T>
 class collection_iterator {
-public:
+ public:
   collection_iterator();
 
   // Used to dereference the current position that is been
@@ -10,7 +10,7 @@ public:
   T operator*();
 
   // Used to get attribute of the current position
-  T* operator->() const;
+  T *operator->() const;
 
   // Act as ++iter
   // return the next position's iterator
