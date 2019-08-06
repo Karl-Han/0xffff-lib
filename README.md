@@ -1,9 +1,10 @@
+> [name=iosmanthus Teng] 备注一下名字, 不然不认得
+
 # 0xffff-lib
 
 [![Build Status](https://travis-ci.org/0xffff-one/0xffff-lib.svg?branch=master)](https://travis-ci.org/0xffff-one/0xffff-lib)
 
 ## Motivation
-
 `0xffff-lib` is a low level core library whose goal is enabling newbie to be familiar with modern C++ development, computer science's core courses and how to contribute to open source project by building a data-structure and algorithm library from scratch with the help of testing framework [`googletest`](https://github.com/google/googletest) and building system [`bazel`](https://www.bazel.build/).
 
 ## Compilation
@@ -103,7 +104,10 @@ TEST(TestMatrix, TestAdd) {
 
 Then, we can run the test by: `bazel test` and check if the function of the module works as expected.
 
+> [name=iosmanthus Teng] 下边这两节感觉可以整理一下? 好像可以合并.
 ## Contribution
+
+> [name=iosmanthus Teng] 已经加了CI, 这里可以修改一下, 说我们已经有了CI, 贡献开PR之后要注意CI的状态, 看有没有通过测试, 如果确定是CI的问题请联系members, @坤霖和我
 
 CI support is coming. And we will make some tags in the issues including:
 
@@ -112,4 +116,10 @@ CI support is coming. And we will make some tags in the issues including:
     * Medium
     * Hard
 * Help wanted
+
+## Steps before opening pull request
+
+1. Test your code in your computer.
+2. Check files that should be commit by adding it one by one.(Do not track unnecessary files and make unnecessary change to `.gitignore`)
+3. Fill in the pull request template.
 
